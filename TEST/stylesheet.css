@@ -5,7 +5,7 @@ li {
 header {
     background-color: rgba(109, 207, 246, 0.5);
     height: 80px;
-    width:100%;
+    width: 100%;
   }
   
   .header-logo {
@@ -20,15 +20,44 @@ header {
     color:white;
     float: left;
   }
-  
-  .main {
-    padding: 100px 80px;
-  }
+
   .logo {
     height: 70px;
     margin-top: 5px;
-    width: auto;
-    float:left
-   
-    
+    margin-left: 5px;
+    float:left   
   }
+  .txt-contents {
+    width:80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color:#b3aeb5;
+  }
+  .lesson-icon p{
+    position:absolute;
+    top: 80px;
+    width: 100%;
+    color: white;
+  }  
+  .lesson-icon {
+    position:relative;
+  }
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  .lesson-wrapper {
+    width: 100%;
+    height:700px;
+    margin:auto;
+    background-image: url(https://media.cntraveler.com/photos/59404f9157d01262a807f8c9/16:9/w_5087,h_2861,c_limit/GettyImages-175386102.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+  .container {
+    width: 100%;
+    padding: 100px 0;
+    margin: 0 15px 0 15px;
+}
