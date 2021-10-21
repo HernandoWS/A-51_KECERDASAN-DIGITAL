@@ -30,34 +30,39 @@ header {
   .txt-contents {
     width:80%;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 15px;
     color:#b3aeb5;
   }
-  .lesson-icon p{
+  .picture-icon p{
     position:absolute;
-    top: 80px;
+    top: 400 px;
     width: 100%;
     color: white;
+    font-size: 15pt;
   }  
-  .lesson-icon {
+  .picture-icon {
     position:relative;
   }
-  .lesson {
+  .picture {
+
     float: left;
-    width: 25%;
+    width: 25%
+    
   }
-  .lesson-wrapper {
+  .main-wrapper {
     width: 100%;
-    height:700px;
+    height:900px;
     margin:auto;
     background-image: url(https://media.cntraveler.com/photos/59404f9157d01262a807f8c9/16:9/w_5087,h_2861,c_limit/GettyImages-175386102.jpg);
     background-size: cover;
     color: white;
+    font-size: 48pt;
+    font-family:Verdana;
     text-align: center;
 }
   .container {
     width: 100%;
-    padding: 100px 0;
+    padding: 20px 0;
     margin: 0 15px 0 15px;
 }
